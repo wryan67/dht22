@@ -108,7 +108,7 @@ int main(int argc, char **argv)
 
 
         while (1) {
-           printf("humidity=%4.2f   temperature=%4.2f\n", humidity, temperature); 
+           printf("humidity=%4.2f%%    temperature=%4.2f Fahrenheit \n", humidity, temperature); 
 	   fflush(stdout);
            sleep(1);
         }
