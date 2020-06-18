@@ -1,5 +1,6 @@
 dht22
 -----
+Read a DHT22 sensor and display the humidity and temperature
 
 
 ## Compiling
@@ -12,7 +13,14 @@ Execute the dht22 binary.  Example:
 
     $ ./dht22 -p 25
     Program initialization
-    setup event triggers
-    humidity=-9999.00   temperature=-9999.00
-    humidity=43.90   temperature=74.30
-    humidity=43.90   temperature=74.30
+    setup DHT22 read loop
+    humidity=-9999.00%    temperature=-9999.00 Fahrenheit 
+    humidity=43.60%    temperature=74.66 Fahrenheit 
+    humidity=43.60%    temperature=74.66 Fahrenheit 
+    humidity=43.60%    temperature=74.66 Fahrenheit 
+    humidity=43.60%    temperature=74.66 Fahrenheit 
+    humidity=43.60%    temperature=74.66 Fahrenheit 
+    humidity=43.60%    temperature=74.66 Fahrenheit 
+    humidity=43.60%    temperature=74.48 Fahrenheit 
+    ^C
+
