@@ -102,7 +102,7 @@ int main(int argc, char **argv)
 		return 1;
 	}
 
-	printf("setup event triggers\n"); fflush(stdout);
+	printf("setup DHT22 read loop\n"); fflush(stdout);
 
 	threadCreate(readDHT22Loop, "read dht sensor");
 
